@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Alberitus Pareto</h1>
+<h1 align="center">Hi 👋, just call me Albe</h1>
 
 ## 👨‍💻 About Me
 

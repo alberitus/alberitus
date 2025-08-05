@@ -1,16 +1,12 @@
-## Hi there 👋
+# Hi, I'm Alberitus
 
-<!--
-**alberitus/alberitus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![LinkedIn: Alberitus](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alberitus)](https://www.linkedin.com/in/alberitus)
+![GitHub followers](https://img.shields.io/github/followers/alberitus?label=Follow&style=social)
+[![website](https://img.shields.io/badge/Website-46a2f1.svg?&style=flat-square&logo=Google-Chrome&logoColor=white&link=https://anmolsingh.me/)](https://www.alberitus.my.id)
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div align="center">
+  <img width="" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alberitus&layout=compact&hide_title=1&card_width=300" alt="Top language used in my repos" />
+  <br />
+  <br />
+  <br />
+</div>

@@ -2,7 +2,7 @@
 
 ## 👨‍💻 About Me
 
-- 🌍 I'm from Pontianak, based in Purwakarta
+- 🌍 I'm from Pontianak
 - 💼 Web developer working mostly with Laravel and JavaScript
 - 🎯 Currently focused on building internal systems & automation tools
 - 📚 Always learning and exploring new technologies

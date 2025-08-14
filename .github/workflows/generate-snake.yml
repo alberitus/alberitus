@@ -1,9 +1,9 @@
-name: auto run
+name: Auto Update GitHub Contribution Snake
 
 on:
   schedule:
     - cron: "0 0 * * *" # jalan tiap jam 00:00 UTC = jam 7 pagi WIB
-  workflow_dispatch: # tetap bisa manual kalau mau
+  workflow_dispatch: # bisa manual run juga
 
 permissions:
   contents: write
@@ -14,38 +14,36 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # SVG-only mode (fast build)
+      # SVG-only mode (cepat)
       - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: alberitus
           outputs: |
-            dist/only-svg/github-contribution-grid-snake.svg
-            dist/only-svg/github-contribution-grid-snake-dark.svg
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg
           palette: github-dark
 
-      # Full render with gif (slower build)
+      # Full render dengan GIF
       - uses: Platane/snk@v3
         with:
           github_user_name: alberitus
           outputs: |
-            dist/docker/github-contribution-grid-snake.svg
-            dist/docker/github-contribution-grid-snake-dark.svg
-            dist/docker/github-contribution-grid-snake.gif
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg
+            dist/github-contribution-grid-snake.gif
           palette: github-dark
           color_snake: orange
           color_dots: "#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9"
 
-      - name: ensure the generated files exist
+      # Pastikan file hasil build ada
+      - name: Ensure the generated files exist
         run: |
-          ls dist/only-svg
-          test -f dist/only-svg/github-contribution-grid-snake.svg
-          test -f dist/only-svg/github-contribution-grid-snake-dark.svg
+          ls dist
+          test -f dist/github-contribution-grid-snake.svg
+          test -f dist/github-contribution-grid-snake-dark.svg
+          test -f dist/github-contribution-grid-snake.gif
 
-          ls dist/docker
-          test -f dist/docker/github-contribution-grid-snake.svg
-          test -f dist/docker/github-contribution-grid-snake-dark.svg
-          test -f dist/docker/github-contribution-grid-snake.gif
-
+      # Push hasil ke branch output (root folder)
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4.1.0
         with:

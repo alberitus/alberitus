@@ -21,7 +21,7 @@
 ## 📊 Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alberitus&layout=compact&theme=tokyonight&count_private=true&langs_count=8" alt="Top Languages" />
+  <img src="https://github-readme-stats-albe.vercel.app/api/top-langs/?username=alberitus&layout=compact&theme=tokyonight&count_private=true&langs_count=8" alt="Top Languages" />
 </p>
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=alberitus&theme=tokyonight" alt="GitHub Streak" />

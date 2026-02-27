@@ -1,16 +1,12 @@
 <h1 align="center">Hi 👋, just call me Albe</h1>
 
 ## 👨‍💻 About Me
-
 - 🌍 I'm from Pontianak (now based in Purwakarta)
 - 💼 Web developer working mostly with Laravel and JavaScript
 - 🎯 Currently focused on building internal systems & automation tools
 - 📚 Always learning and exploring new technologies
 
-
-
 ## 🛠 Tech Stack
-
 ![Laravel](https://img.shields.io/badge/-Laravel-E34F26?style=flat-square&logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -25,9 +21,8 @@
 ## 📊 Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alberitus&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alberitus&layout=compact&theme=tokyonight&count_private=true&langs_count=8" alt="Top Languages" />
 </p>
-
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=alberitus&theme=tokyonight" alt="GitHub Streak" />
 </p>
@@ -37,7 +32,7 @@
 ## 🏆 Trophy
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=alberitus&theme=radical&margin-w=10&rank=A,AA,AAA,S,SS,SSS&row=2&column=3" alt="GitHub Trophy" />
+  <img src="https://github-profile-trophy.vercel.app/?username=alberitus&theme=radical&no-frame=true&margin-w=10&row=2&column=3" alt="GitHub Trophy" />
 </p>
 
 ---
@@ -73,7 +68,7 @@
 ## 🤝 Let's Collaborate!
 
 Got a cool project in mind?  
-I’m open to freelance work, collaboration, or just a friendly chat about code.
+I'm open to freelance work, collaboration, or just a friendly chat about code.
 
 📬 Reach me via [LinkedIn](https://www.linkedin.com/in/alberitus) or email!
 
